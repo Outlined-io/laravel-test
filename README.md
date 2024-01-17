@@ -1,7 +1,8 @@
-![Big Picture Tech Test](https://repository-images.githubusercontent.com/290127167/d8659980-e792-11ea-84cf-61f5e870222e)
+![Outlined](https://avatars.githubusercontent.com/u/156925377?s=400&u=64acfb87d30518f4266a1694acd3edecf0e91905&v=4)
+
 
 # Overview
-This repository is the starting point for Big Picture's Laravel Tech Test.
+This repository is the starting point for Outlined's Laravel Tech Test.
 
 The codebase contains a fresh Laravel 7 installation with Laravel Sanctum for SPA authentication.
 
@@ -32,7 +33,7 @@ However, feel free to also run the server if that suits your workflow better, wh
 
 # The Tasks
 
-Before getting started, should you have any questions regarding any of the tasks please email kamal.chapagain@bigpicturemedical.com. 
+Before getting started, should you have any questions regarding any of the tasks please email contact@outlined.io.
 
 ## 1. Send a welcome notification 
 
@@ -70,7 +71,7 @@ An example of performing a search would be `http://backend-tech-test-public.s3-w
 
 This task aims to have you proxy requests to this API via Laravel and allow the front-end to perform searches on the API utilising the upcoming `?search=query` functionality. Note: you should not manually filter the results - just assume that the API is filtering the results.
 
-Important to note is that our front-ends only need the `id` and `name`, however, we use different domain logic at Big Picture and wish the medication `id` to be exposed as "code". Ideally, we would like the Laravel response to look like this:
+Important to note is that our front-ends only need the `id` and `name`, however, we use different domain logic at Outlined and wish the medication `id` to be exposed as "code". Ideally, we would like the Laravel response to look like this:
 
    ```json
    {
@@ -118,7 +119,7 @@ The front-end will need endpoints for assigning medications to a patient, and fo
 
 ## Submission
 
-Once complete, please create a zip file or tarball of your repository with the git history intact, but preferably without the vendor directory. Then please send your solution to kamal.chapagain@bigpicturemedical.com.
+Once complete, please create a zip file or tarball of your repository with the git history intact, but preferably without the vendor directory. Then please send your solution to contact@outlined.io.
 
 ## License
 
